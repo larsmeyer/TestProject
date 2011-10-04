@@ -18,6 +18,7 @@
 		462962B41438BAC800C47CD4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 462962B21438BAC800C47CD4 /* InfoPlist.strings */; };
 		462962B61438BAC800C47CD4 /* TestTests.h in Resources */ = {isa = PBXBuildFile; fileRef = 462962B51438BAC800C47CD4 /* TestTests.h */; };
 		462962B81438BAC800C47CD4 /* TestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 462962B71438BAC800C47CD4 /* TestTests.m */; };
+		462962C81438C0C300C47CD4 /* SImpleClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 462962C71438C0C300C47CD4 /* SImpleClass.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,20 +37,22 @@
 		4629628F1438BAC700C47CD4 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
 		462962901438BAC700C47CD4 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		462962911438BAC700C47CD4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		462962941438BAC700C47CD4 /* Test-Info.plist */ = {isa = PBXFileReference; path = "Test-Info.plist"; sourceTree = "<group>"; };
+		462962941438BAC700C47CD4 /* Test-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Test-Info.plist"; sourceTree = "<group>"; };
 		462962961438BAC700C47CD4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		462962981438BAC700C47CD4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		4629629A1438BAC700C47CD4 /* Test-Prefix.pch */ = {isa = PBXFileReference; path = "Test-Prefix.pch"; sourceTree = "<group>"; };
+		4629629A1438BAC700C47CD4 /* Test-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Test-Prefix.pch"; sourceTree = "<group>"; };
 		4629629C1438BAC700C47CD4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
-		4629629E1438BAC700C47CD4 /* TestAppDelegate.h */ = {isa = PBXFileReference; path = TestAppDelegate.h; sourceTree = "<group>"; };
+		4629629E1438BAC700C47CD4 /* TestAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestAppDelegate.h; sourceTree = "<group>"; };
 		4629629F1438BAC700C47CD4 /* TestAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestAppDelegate.m; sourceTree = "<group>"; };
 		462962A21438BAC800C47CD4 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		462962A91438BAC800C47CD4 /* TestTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		462962AA1438BAC800C47CD4 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		462962B11438BAC800C47CD4 /* TestTests-Info.plist */ = {isa = PBXFileReference; path = "TestTests-Info.plist"; sourceTree = "<group>"; };
+		462962B11438BAC800C47CD4 /* TestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TestTests-Info.plist"; sourceTree = "<group>"; };
 		462962B31438BAC800C47CD4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		462962B51438BAC800C47CD4 /* TestTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestTests.h; sourceTree = "<group>"; };
 		462962B71438BAC800C47CD4 /* TestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestTests.m; sourceTree = "<group>"; };
+		462962C61438C0C300C47CD4 /* SImpleClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SImpleClass.h; sourceTree = "<group>"; };
+		462962C71438C0C300C47CD4 /* SImpleClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SImpleClass.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,6 +119,8 @@
 			isa = PBXGroup;
 			children = (
 				4629629E1438BAC700C47CD4 /* TestAppDelegate.h */,
+				462962C61438C0C300C47CD4 /* SImpleClass.h */,
+				462962C71438C0C300C47CD4 /* SImpleClass.m */,
 				4629629F1438BAC700C47CD4 /* TestAppDelegate.m */,
 				462962A11438BAC800C47CD4 /* MainMenu.xib */,
 				462962931438BAC700C47CD4 /* Supporting Files */,
@@ -261,6 +266,7 @@
 			files = (
 				462962991438BAC700C47CD4 /* main.m in Sources */,
 				462962A01438BAC700C47CD4 /* TestAppDelegate.m in Sources */,
+				462962C81438C0C300C47CD4 /* SImpleClass.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
